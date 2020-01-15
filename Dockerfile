@@ -20,7 +20,8 @@ RUN apt-get update && apt-get install -y \
         nodejs \
         openssh-client \
         rsync \
-        ansible
+        ansible \
+        patch
 
 # Install NVM
 RUN curl -sL https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash -
